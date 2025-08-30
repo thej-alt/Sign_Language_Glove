@@ -22,10 +22,12 @@ The **Sign Language Recognition Glove** is an Arduino-based project that transla
     - Glove
     - Breadboard
     - 9V Battery
+ 
   Software:
     - Arduino IDE
     - Gesture Recognition Algorithm
     - Android Application
+ 
   Communication:
     - Bluetooth Communication Protocol
 
