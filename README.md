@@ -45,15 +45,4 @@ cd Sign-Language-Glove
 # 6. Test
 # Open Serial Monitor or connect via Bluetooth/Wi-Fi to see gesture outputs
 ---
----
-## 📂 Project Structure
-```yaml
-.
-├── src/                # Source code (Arduino .cpp files)
-│   ├── main.cpp        # Main Arduino sketch
-│   └── gestures.cpp    # Gesture handling logic
-├── LICENSE             # MIT License
-├── .gitignore          # Ignored files for Git
-└── README.md           # Documentation
 
----
