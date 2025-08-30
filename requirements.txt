@@ -1,0 +1,54 @@
+1. Hardware Requirements : 
+
+Arduino Board: 
+             Arduino UNO / Arduino NANO (ATmega328P-based).
+
+Sensors:
+             Flex Sensors (for finger bending detection).
+             Accelerometer (ADXL335/ADXL345) for motion/orientation tracking.
+
+Communication Module: 
+             Bluetooth HC-05 (Master/Slave mode).
+
+Power Supply: 
+             9V Battery (with battery snap & regulator if required)
+
+Other Components: 
+             Breadboard / PCB (for circuit connections).
+             Jumper Wires (male-to-male, male-to-female).
+             A Glove (base for mounting sensors).
+
+
+2. Software Requirements:
+             Arduino IDE (for coding and uploading sketches to Arduino)
+
+Programming Language:
+             Arduino C/C++
+
+Gesture Recognition Algorithm:
+             Custom logic based on flex + accelerometer data
+
+Android App:
+             Developed in Android Studio (Java/Kotlin).
+             Bluetooth API for communication with HC-05.
+             Real-time display of recognized gestures.
+
+
+3. Communication Requirements:
+
+Protocol: 
+             Serial Bluetooth Communication (UART)
+
+Baud Rate: 
+             9600 bps (standard for HC-05, configurable)
+
+Data Format: 
+             ASCII/UTF-8 encoded gesture data sent from Arduino → Android App
+
+
+
+4. Functional Requirements:
+             Arduino reads data from flex sensors + accelerometer.
+             Data is processed using a gesture recognition algorithm.
+             A recognized gesture is sent via the HC-05 Bluetooth module.
+             Android app receives and displays the corresponding gesture meaning (e.g., text or speech).
