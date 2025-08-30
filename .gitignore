@@ -1,0 +1,24 @@
+# Compiled object files
+*.o
+*.obj
+*.elf
+
+# Arduino build files
+*.hex
+*.bin
+*.eep
+
+# Backup files
+*~
+*.bak
+*.swp
+
+# Logs
+*.log
+
+# IDE specific
+.vscode/
+.idea/
+*.pro.user
+*.DS_Store
+Thumbs.db
