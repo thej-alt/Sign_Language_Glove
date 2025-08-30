@@ -12,7 +12,7 @@ The **Sign Language Recognition Glove** is an Arduino-based project that transla
 
 ---
 
-System_Architecture:
+## System_Architecture:
   Hardware:
     - Arduino UNO/NANO
     - Flex Sensors
@@ -30,15 +30,16 @@ System_Architecture:
     - Bluetooth Communication Protocol
 
 ---
-Android App
+## Android App
 
 Receives data via Bluetooth (HC-05)
 
 Displays recognized gestures in text form
 
 User-friendly UI for real-time communication
+
 ---
-Workflow
+## Workflow
 
 Wear the glove with sensors.
 
@@ -47,6 +48,7 @@ Flex sensors + accelerometer capture gesture data.
 Arduino processes values and sends them over Bluetooth.
 
 Android app receives data and displays the recognized gesture as text.
+
 ---
 
 
